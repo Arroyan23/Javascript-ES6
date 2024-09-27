@@ -398,3 +398,4 @@ function displayItem(list) {
 }
 
 console.log(displayItem(toDoList));
+

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
+    <!-- <style>
       body {
         background-color: blanchedalmond;
         justify-content: center;
@@ -33,6 +33,14 @@
         transform: scale(2) translateY(-20px);
         cursor: pointer;
       }
+    </style> -->
+    <style>
+      .container2 input,
+      button {
+        padding: 15px;
+        margin: 10px;
+        width: 250px;
+      }
     </style>
   </head>
   <body>
@@ -44,6 +52,24 @@
     <div class="container">
       <h1 class="favian">Favian Bunuh Diri</h1>
     </div>
-    <script src="spreadoperator.js"></script>
+    <div class="container2">
+      <label for=""></label>
+      <input
+        type="text"
+        id="my-input"
+        placeholder="Masukkan judul dari to do list"
+      />
+      <br />
+      <input
+        type="text"
+        id="my-input-description"
+        placeholder="Masukkan Keterangannya"
+      />
+      <br />
+      <button id="my-button">Submit</button>
+      <button id="button-tampilkan">Tampilkan To Do List</button>
+    </div>
+    <div class="container-3"></div>
+    <script src="latihantodolist.js"></script>
   </body>
 </html>
