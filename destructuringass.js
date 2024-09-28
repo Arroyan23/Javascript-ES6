@@ -103,3 +103,4 @@ function getIdMhs({ id }) {
 // jadi bisa lebih simple
 
 console.log(getIdMhs(mhs2));
+
